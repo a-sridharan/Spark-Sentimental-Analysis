@@ -35,6 +35,7 @@ object App {
       .getOrCreate()
 
 
+
     //val tweetData = sc.textFile("/Users/anand/Downloads/data.txt").toDF()
 
     val tweetDF = spark.read.text("/Users/anand/Downloads/data.txt")
